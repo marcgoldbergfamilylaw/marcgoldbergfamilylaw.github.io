@@ -520,8 +520,8 @@
 
                 </div>
 
-                <div class="form">
-                    <form action="https://mailthis.to/ca103mitchellgarcia@yahoo.com" method="POST" encType="multipart/form-data" role="form" class="php-email-form">
+                <div class="form-new">
+                    <form action="https://mailthis.to/ca103mitchellgarcia@yahoo.com" method="POST" encType="multipart/form-data" role="form" class="php-email-form2">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -642,6 +642,23 @@
     <script src="assets/js/main.js"></script>
 
     <style>
+        .php-email-form2 input,
+        #contact .php-email-form2 textarea {
+            padding: 10px 14px;
+            border-radius: 0;
+            box-shadow: none;
+            font-size: 15px;
+        }
+
+        .php-email-form2 button[type="submit"] {
+            background: #18d26e;
+            border: 0;
+            padding: 10px 30px;
+            color: #fff;
+            transition: 0.4s;
+            cursor: pointer;
+        }
+
         @media only screen and (max-width: 600px) {
             #logo>h1>a {
                 font-size: 20px;
